@@ -13,7 +13,7 @@
 
 	<div id="fronts_reds">
 		<h2>Fronts</h2>
-		<form action="form_action.asp" method="get">
+		<form action="index.php" method="get">
   			Exported Sheets: <input type="text" required name="frontsreds" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>	
@@ -21,7 +21,7 @@
 	
 	<div id="shorts">
 		<h2>Shorts</h2>
-		<form action="form_action.asp" method="get">
+		<form action="index.php" method="get">
   			Exported Sheets: <input type="text" required name="shorts" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>		
@@ -29,7 +29,7 @@
 
 	<div id="greens">
 		<h2>Greens</h2>
-		<form action="form_action.asp" method="get">
+		<form action="index.php" method="get">
   			Exported Sheets: <input type="text" required name="greens" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>	
