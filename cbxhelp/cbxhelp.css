@@ -1,4 +1,16 @@
-#body_container {
+#body_title_container {
+margin:auto; text-align:center;
+}
+
+#fronts_reds {
+margin:auto; text-align:center;
+}
+
+#shorts {
+margin:auto; text-align:center;
+}
+
+#greens {
 margin:auto; text-align:center;
 }
 
