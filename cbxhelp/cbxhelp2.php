@@ -13,24 +13,24 @@
 
 	<div id="fronts_reds">
 		<h2>Fronts</h2>
-		<form action="index.php" method="get">
-  			Exported Sheets: <input type="text" required name="frontsreds" /><br />
+		<form action="frontsreds.php" method="post">
+  			Exported Sheets: <input type="text" required name="frontsreds" value="" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>	
 	</div>
 	
 	<div id="shorts">
 		<h2>Shorts</h2>
-		<form action="index.php" method="get">
-  			Exported Sheets: <input type="text" required name="shorts" /><br />
+		<form action="shorts.php" method="get">
+  			Exported Sheets: <input type="text" required name="shorts" value="" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>		
 	</div>
 
 	<div id="greens">
 		<h2>Greens</h2>
-		<form action="index.php" method="get">
-  			Exported Sheets: <input type="text" required name="greens" /><br />
+		<form action="greens.php" method="post">
+  			Exported Sheets: <input type="text" required name="greens" value="" /><br />
   			<input type="submit" value="Compare to Settles" />
 		</form>	
 	</div>

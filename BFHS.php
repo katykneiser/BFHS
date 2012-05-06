@@ -4,5 +4,8 @@
 		<link rel="stylesheet" href="BFHS.css">
 	</head>
 	
-	<body>Work Projects</body>
+	<body>
+		<h2>Work Projects</h2>
+		<a href="cbxhelp.php">CBX Helpers </a>
+	</body>
 </html>
