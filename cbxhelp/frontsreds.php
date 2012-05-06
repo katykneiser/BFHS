@@ -12,7 +12,11 @@
 	</div>
 	<?php
 	
-		$exportData = $_POST['frontsreds'];		
+		if( isset($_POST['frontsreds'])
+		{
+			$exportData = htmlspecialchars($_POST['frontsreds']);		
+		}		
+		
 		echo "{$exportData}";
 	?>
 		
