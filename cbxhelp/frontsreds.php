@@ -20,8 +20,8 @@
 
 		
 		$rightNow = strtotime(Friday);
-		$settleDateDay = strftime(%d,$rightNow);
-		$SettleDateMonth = strftime(%m,$rightNow);
+		$settleDateDay = strftime("%d",$rightNow);
+		$SettleDateMonth = strftime("%m",$rightNow);
 		$lifelink = "http://www.liffe.com/data/dopt12$settleDateMonth$settleDateDay.txt";		
 		echo "{$lifelink}";
 	?>
