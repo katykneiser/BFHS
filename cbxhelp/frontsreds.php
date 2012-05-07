@@ -16,12 +16,13 @@
 		$exportData = htmlspecialchars($_POST['frontsreds']);		
 		//}		
 		
-		echo "{$exportData}";
+		echo "{$exportData} </ br>";
 
 		
 		$rightNow = strtotime(Friday);
-		$settleDate = $rightNow;
-		$lifelink = "http://www.liffe.com/data/dopt$settleDate.txt";		
+		$settleDateDay = strftime(%d,$rightNow);
+		$SettleDateMonth = strftime(%m,$rightNow);
+		$lifelink = "http://www.liffe.com/data/dopt12$settleDateMonth$settleDateDay.txt";		
 		echo "{$lifelink}";
 	?>
 		
