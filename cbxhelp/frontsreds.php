@@ -17,6 +17,12 @@
 		//}		
 		
 		echo "{$exportData}";
+
+		
+		$rightNow = strtotime(Friday);
+		$settleDate = 	;
+		$lifelink = "http://www.liffe.com/data/dopt$settleDate.txt";		
+		echo {$lifelink};
 	?>
 		
 </body>
