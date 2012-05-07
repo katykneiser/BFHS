@@ -20,7 +20,7 @@
 
 		
 		$rightNow = strtotime(Friday);
-		$settleDate = 	;
+		$settleDate = $rightNow;
 		$lifelink = "http://www.liffe.com/data/dopt$settleDate.txt";		
 		echo {$lifelink};
 	?>
